@@ -3,6 +3,7 @@
 ### or commented out in case you need to use them.
 
 ### Make sure to insert documents in the "data" folder in the root directory of the project. The documents should be in PDF format.
+### If the folder is not present, create one, name it "data" and insert the documents there.
 
 from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
