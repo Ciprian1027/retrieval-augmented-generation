@@ -101,7 +101,6 @@ def main():
     db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
     while True:
-        # Get user input
         query_text = input("Enter your query (or type 'exit' to quit): ")
         
         if query_text.lower() == "exit":
